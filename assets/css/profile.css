@@ -1,0 +1,155 @@
+b {
+    color: red;
+}
+
+.form-detail {
+    margin-left: 10%;
+}
+
+button {
+    border-radius: 20px;
+    border: 1px solid #FF4B2B;
+    background-color: #FF4B2B;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    margin-left: 18%;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+strong {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.container1 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2 {
+    font-size: 26px;
+    margin: 20px 0;
+    text-align: center;
+
+}
+
+h2 small {
+    font-size: 0.5em;
+}
+
+#capture {
+    margin-left: 4%;
+}
+
+.responsive-table li {
+    border-radius: 3px;
+    padding: 25px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.responsive-table .table-header {
+    background-color: #95A5A6;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.responsive-table .table-row {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+.responsive-table .col-1 {
+    flex-basis: 10%;
+}
+
+.responsive-table .col-2 {
+    flex-basis: 40%;
+}
+
+
+.responsive-table .col-3 {
+    flex-basis: 25%;
+}
+
+
+.responsive-table .col-4 {
+    flex-basis: 25%;
+}
+
+@media all and (max-width: 900px) {
+    .table-header {
+        display: none;
+    }
+
+    li {
+        display: block;
+    }
+
+    .col {
+
+        flex-basis: 100%;
+
+    }
+}
+
+body {
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0;
+    margin: 0;
+    color: #000;
+}
+
+.student-profile .card {
+    border-radius: 10px;
+}
+
+#file {
+    margin-left: 1%;
+}
+
+.student-profile .card .card-header .profile_img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
